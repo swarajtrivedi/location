@@ -2,7 +2,7 @@ var latitude; //to get the latitude
 var longitude; //to get the longitude
 var latlongvalue; //to specify the coordinates in img
 var x = document.getElementById('location');// to fetch the element with id="location"
-function getlocation() //to fetch location
+function getLocation() //to fetch location
 {
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(showPosition);
